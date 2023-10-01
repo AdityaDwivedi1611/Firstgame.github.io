@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(51,51,51);
+}
+H1 {
+    color:aliceblue;
+    margin-top: 1rem;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tiles {
+    margin: 48px auto;
+    width:max-content;
+    display:grid;
+    grid-template-columns: repeat(4,100px);
+    gap:1rem;
+    box-sizing: border-box;
+
+}
+.tile{
+    height: 100px;
+    background: #111;
+    border:5px solid #444;
+    cursor: pointer;
+
+}
